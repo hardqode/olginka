@@ -1,0 +1,26 @@
+.btn-blue {
+  border-radius: 4px;
+  background-color: rgb(18, 90, 255);
+  padding: 18px 33px;
+  font-size: 13px;
+  font-family: $Fira;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: all .3s;
+  border: 0;
+  &:hover {
+    background-color: rgba(18, 90, 255, 0.89);
+  }
+  &:active{
+    background-color: rgb(18, 85, 216);
+  }
+  &.text-normal{
+    font-weight: normal;
+  }
+  &.btn-small{
+    padding: 9px 15px;
+  }
+}

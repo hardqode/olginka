@@ -1,0 +1,82 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $Fira;
+  color: inherit;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+  &.bold {
+    font-weight: bold;
+  }
+}
+
+p {
+  font-size: 15px;
+  font-family: $Fira;
+  color: inherit;
+  &.small {
+    font-size: 13px;
+  }
+  &.date {
+    font-size: 13px;
+    color: rgba(30, 30, 30, 0.6);
+  }
+}
+
+input {
+  font-size: 15px;
+  font-family: $Fira;
+  border: 1px solid rgba(27, 27, 27, .1);
+  border-radius: 4px;
+  color: rgb(30, 30, 30);
+  padding-left: 15px;
+  background-color: rgb(255, 255, 255);
+  height: 56px;
+}
+textarea {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: $Fira;
+  border: 1px solid rgba(27, 27, 27, .1);
+  border-radius: 4px;
+  color: rgb(30, 30, 30);
+  padding-left: 15px;
+  background-color: rgb(255, 255, 255);
+  min-height: 56px;
+}
+
+.num {
+  font-size: 44px;
+  font-family: $Fira;
+  color: rgb(30, 30, 30);
+  line-height: 0.455;
+}
+
+.material-icons {
+  position: relative;
+  top: 5px;
+}
+
+.label {
+  background-color: rgb(18, 90, 255);
+  padding: 1px 3px;
+  font-size: 11px;
+  font-family: $Fira;
+  margin-right: 12px;
+  text-transform: uppercase;
+  line-height: 1.818;
+  color: white;
+  & + span {
+    font-size: 15px;
+  }
+}

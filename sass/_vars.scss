@@ -1,0 +1,24 @@
+$black: rgb(26, 26, 24);
+$Fira: 'Fira Sans', sans-serif;
+* {
+  outline: none !important;
+}
+
+.bg-gray {
+  background: #e6e9f0;
+}
+
+.bg-shield {
+  background: url("../assets/shield.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+}
+
+.text-gray {
+  color: rgba(30, 30, 30, 0.302);
+
+}
+
+.text-normal{
+  text-transform: none !important;
+}

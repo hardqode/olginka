@@ -1,0 +1,30 @@
+.faq {
+  a {
+    font-size: 18px;
+    font-family: $Fira;
+    color: rgb(18, 90, 255);
+    line-height: 2.444;
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed rgba(18, 90, 255, .2);
+    transition: all .3s;
+    position: relative;
+    &:hover {
+      text-decoration: none;
+      color: rgb(14, 70, 198);
+      border-bottom: 1px dashed rgba(14, 70, 198, .2);
+    }
+    &:after{
+      position: absolute;
+      content: 'keyboard_arrow_down';
+      right: -20px;
+      font-family: 'Material Icons';
+    }
+    &[aria-expanded="true"]:after{
+      content: 'keyboard_arrow_up';
+
+    }
+  }
+  div {
+    margin-bottom: .8rem;
+  }
+}

@@ -1,0 +1,16 @@
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  .gallery-img{
+    width: 1/6;
+    opacity: 1;
+    transition: all .2s;
+    cursor: pointer;
+    img{
+      width: 100%;
+    }
+    &:hover{
+      opacity: 0.85;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.subscribe {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: $black;
+  background: url("../assets/bg-subscribe.png");
+  .container {
+    height: 100%;
+  }
+  h2 {
+    font-size: 32px;
+    font-family: $Fira;
+    color: rgb(26, 26, 24);
+
+  }
+  p{
+      font-size: 15px;
+      color: rgb(26, 26, 24);
+      line-height: 1.333;
+  }
+  input {
+    width: 405px;
+    border: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    flex: 1;
+  }
+  button {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    i {
+      position: relative;
+      top: 0;
+    }
+    height: 56px;
+  }
+}

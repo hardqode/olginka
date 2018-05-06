@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600,700" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+            integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+            crossorigin="anonymous"></script>
+    <script>
+        FontAwesomeConfig = {searchPseudoElements: true};
+    </script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Реставрация «Ансамбля детской больницы Святой Ольги»</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="#" role="button" ref="history">История</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="#" role="button" ref="team">Команда</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="#" role="button" ref="stages">Этапы </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="#" role="button" ref="gallery">Галерея </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#" role="button" ref="news">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#" role="button" ref="faq">Вопрос/ответ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <h1>Научная реставрация «Ансамбля детской больницы Святой Ольги»</h1>
+                <p>В 2017 году компания Sminex стала собственником объекта культурного наследия регионального значения —
+                    «Ансамбля детской больницы Святой Ольги», расположенного по адресу: Москва, Орлово-Давыдовский
+                    переулок, 2А. Мы купили эти здания с единственной целью — восстановить их методом научной
+                    реставрации и сохранить насаждения. В ближайшие три года мы планируем подготовить проект научной
+                    реставрации и реализовать его. </p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="bg-gray py-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12">
+                <h2>Под защитой закона</h2>
+            </div>
+            <div class="col-8 pr-0">
+                <p>Здания «Ансамбля детской больницы Святой Ольги» являются объектом культурного наследия, поэтому
+                    <strong>в силу закона их нельзя снести или что-то надстроить.</strong> Уничтожение памятников
+                    культуры является уголовным преступлением (ст. 243 УК РФ). Ансамбль находится на территории особо
+                    охраняемого природного комплекса, на территории которого запрещено любое новое строительство.
+                </p>
+                <p>
+                    Сегодня здания Ансамбля находятся в плачевном состоянии: здесь был пожар, разрушены перекрытия,
+                    кровля, стропильные системы и коммуникации, утрачены интерьеры, часть подвалов затоплена,
+                    а территория пришла в запустение.
+                </p>
+                <p>
+                    Мы заинтересованы в бережной реставрации зданий и сохранении зеленых насаждений, так как только
+                    в воссозданном виде они имеют не только историческую, но и материальную ценность.
+                </p>
+            </div>
+            <div class="col-3 ml-auto pt-5 bg-shield">
+                <p class="num">8128</p>
+                <p class="small mb-4">столько в Москве зданий со статусом объекта культурного наследия и за последние
+                    годы <strong>не было снесено ни одного из них</strong></p>
+                <p class="num">1007 </p>
+                <p class="small">объектов культурного наследия были отреставрированы в столице за последние 7 лет </p>
+            </div>
+        </div>
+        <div class="row mb-5" >
+            <div class="col-12 mb-4 text-center">
+                <h2>Состояние зданий до реставрации</h2>
+            </div>
+            <div class="col-4"><img src="./assets/building-state/state-1.png" alt="" class="img-fluid"></div>
+            <div class="col-4"><img src="./assets/building-state/state-2.png" alt="" class="img-fluid"></div>
+            <div class="col-4"><img src="./assets/building-state/state-3.png" alt="" class="img-fluid"></div>
+        </div>
+        <div class="row pt-3 d-flex justify-content-between row-timeline" id="history">
+            <div class="col-10 mx-auto text-center mb-5">
+                <h2>История «Ансамбля детской больницы Святой Ольги» </h2>
+            </div>
+            <div class="col-5  text-right pb-5">
+                <h4>1886</h4>
+                <p>В Орлово-Давыдовском переулке построена детская больница, основанная на пожертвования графа С. В.
+                    Орлова-Давыдова и названная в честь Святой княгини Ольги, которая была покровительницей матери графа
+                    — Ольги Ивановны. Архитекторами проекта стали К. М. Быковский и В. В. Барков при участии педиатров
+                    К. А. Раухфуса, П. А. Вульфиуса и Н. Е. Покровского. Здания выделяются резким контрастом красного
+                    кирпича и белых декоративных деталей. На строениях сохранились редкие мозаичные изображения святого
+                    целителя Пантелеймона и покровительницы больницы святой Ольги.</p>
+            </div>
+            <div class="col-1 timeline"></div>
+            <div class="col-5 pb-5">
+                <div class="image-oldschool">
+                    <img src="./assets/history/1886.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-5  pb-5">
+                <div class="image-oldschool">
+                    <img src="./assets/history/1923.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-1 timeline"></div>
+
+            <div class="col-5  pb-5">
+                <h4>1923</h4>
+                <p>После революции здесь открыли I-ую детскую туберкулёзную больницу. Сохранился и прекрасный сад, в
+                    котором можно было гулять. В нем старались сажать самые разные деревья, чтобы дети могли изучать
+                    ботанику. </p>
+            </div>
+            <div class="col-12 text-center mb-5">
+                <button class="btn-blue">Посмотреть всю историю</button>
+            </div>
+            <div class="col-5  text-right pb-5">
+                <h4>2017</h4>
+                <p>В 2017 году компания Sminex стала собственником комплекса зданий детской больницы Святой Ольги.
+                    Компания выкупила объект на третьем аукционе (на двух предшествующих аукционов желающих выкупить
+                    Ансамбль не было).
+                    Стоимость строений составила 193,7 млн рублей, а земельного участка дополнительно ~ 1 млрд
+                    рублей.</p>
+            </div>
+            <div class="col-1 timeline"></div>
+
+            <div class="col-5  pb-5">
+                <div class="image-oldschool">
+                    <img src="./assets/history/2017.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-5  pb-5">
+                <div class="image-oldschool">
+                    <img src="./assets/history/2018.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-1 timeline last"></div>
+
+            <div class="col-5  pb-5">
+                <h4>2018</h4>
+                <p>Запущена процедура по созданию проекта научной реставрации объекта культурного наследия. </p>
+            </div>
+        </div>
+        <div class="row mb-5" id="team">
+            <div class="col-12 text-center mb-5">
+                <h2>Кто проведёт реставрацию?</h2>
+            </div>
+            <div class="col-6 mb-4">
+                <img src="./assets/keinweit.png" alt="" class="mb-4 img-fluid">
+                <p>
+                    Для реставрации мы пригласили Kleinewelt Аrchitekten — архитектурное бюро, основанное братьями
+                    Николаем и Сергеем Переслегиными и Георгием Трофимовым в 2013 году.</p>
+                <p> Бюро занимается проектированием общественных и жилых зданий, реконструкцией и реставрацией
+                    исторических объектов, благоустройством общественных пространств, развитием кварталов и городов.
+                </p>
+                <p>Среди проектов Kleinewelt Аrchitekten павильоны на ВДНХ, Новодевичья набережная, Офисное здание на
+                    Трехгорной мануфактуре, Петровский парк, Детский хоспис и многие другие.
+                </p>
+                <p> С подробным портфолио можно ознакомиться <a href="#">на сайте бюро</a>
+
+                </p>
+            </div>
+            <div class="col-6 mb-4 competetors-container">
+                <div class="competetor">
+                    <img src="./assets/competetor/comp-1.png" alt="">
+                    <p>Николай</p>
+                    <p>Переслегин</p>
+                </div>
+                <div class="competetor">
+                    <img src="./assets/competetor/comp-2.png" alt="">
+                    <p>Николай</p>
+                    <p>Переслегин</p>
+                </div>
+                <div class="competetor">
+                    <img src="./assets/competetor/comp-3.png" alt="">
+                    <p>Николай</p>
+                    <p>Переслегин</p>
+                </div>
+
+            </div>
+            <div class="col-2 mb-4">
+                <div class="competetor">
+                    <img src="./assets/competetor/comp-4.png" alt="">
+                </div>
+            </div>
+            <div class="col-10 mb-4">
+                <h3 class="mb-3">Борис Савин</h3>
+                <p>В команде с архитекторами над проектом научной реставрации «Ансамбля детской больницы Святой Ольги»
+                    будет работать известный реставратор — Борис Васильевич Савин. Среди его проектов сложные старинные
+                    особняки и усадьбы XVIII–XIX веков, где было необходимо сохранить и фасад, и внутренние интерьеры;
+                    более новые, но не менее ценные дома и целые комплексы, в том числе проекты научной реставрации,
+                    которые требовали тщательного междисциплинарного исследования и большой предпроектной работы. </p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 mb-3">
+                <h3>Некоторые из проектов Бориса Савина</h3>
+            </div>
+            <div class="col-4 mb-4">
+                <img src="./assets/boris-proj/proj-1.png" alt="" class="img-fluid mb-2">
+                <p>Здание банка «Пересвет» на улице Сергия Радонежского</p>
+            </div>
+            <div class="col-4 mb-4">
+                <img src="./assets/boris-proj/proj-2.png" alt="" class="img-fluid mb-2">
+                <p>Особняк на Тверском бульваре, принадлежавший Петру Петровичу Смирнов</p>
+            </div>
+            <div class="col-4 mb-4">
+                <img src="./assets/boris-proj/proj-3.png" alt="" class="img-fluid mb-2">
+                <p>Кинотеатр «Победа» на Абельмановской улице, 17а </p>
+            </div>
+        </div>
+        <div class="row" id="stages">
+            <div class="col-12 text-center">
+                <h2 class="mb-5">Этапы реставрации</h2>
+                <h4 class="mb-3">1. Разработка проекта научной реставрации</h4>
+                <p><i class="material-icons mr-2 text-gray">event_available</i>I квартал 2018 года – I квартал 2019 года
+                </p>
+            </div>
+        </div>
+        <div class="row mb-5 news-container" id="news">
+            <div class="col-8 mx-auto mb-4 ">
+                <div class="news-card">
+                    <p class="date">25.03.2018</p>
+                    <a href="#">Подготовлен проект распоряжения Правительства Москвы «О включении ансамбля в Реестр
+                        объектов культурного наследия регионального значения»</a>
+                </div>
+                <div class="news-card">
+                    <p class="date">25.03.2018</p>
+                    <a href="#">Сформирован проект Правительства Москвы «О включении в Реестр объектов культурного
+                        наследия регионального значения»</a>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <button class="btn-blue text-normal">Все новости по этапу</button>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h4 class="mb-3">2. Экспертиза проекта </h4>
+                <p><i class="material-icons mr-2 text-gray">event_available</i>
+                    I квартал 2019 года – II квартал 2019 года
+                </p>
+            </div>
+            <div class="col-7 mb-3 mx-auto text-center">
+                <a href="#">Проект распоряжения Правительства Москвы «О включении ансамбля в Реестр объектов
+                    регионального значения»</a>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-auto mx-auto d-flex align-items-center">
+                <span class="label">PDF</span> <span class="text-gray">153 Кб</span>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h4 class="mb-3">3. Получение разрешения на научную реставрацию</h4>
+                <p><i class="material-icons mr-2 text-gray">event_available</i>
+                    IV квартал 2019 года
+                </p>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-7 text-center mx-auto">
+                <h4 class="mb-3">4. Реализация проекта научной реставрации для сохранения объекта культурного
+                    наследия</h4>
+                <p><i class="material-icons mr-2 text-gray">event_available</i>
+                    IV квартал 2019 года – II квартал 2021 года
+                </p>
+            </div>
+        </div>
+        <div class="row " id="gallery">
+            <div class="col-12 mb-4 text-center">
+                <h2>Галерея</h2>
+            </div>
+            <div class="col-12 mb-4 gallery">
+                <div class="gallery-img">
+                    <img src="./assets/gallery/gal-1.png" alt="">
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/gallery/gal-2.png" alt="">
+
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/gallery/gal-3.png" alt="">
+
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/gallery/gal-4.png" alt="">
+
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/gallery/gal-5.png" alt="">
+
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/gallery/gal-6.png" alt="">
+
+                </div>
+            </div>
+            <div class="col-12 text-center mb-4">
+                <button class="btn-blue btn-small text-normal">Все фото</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="subscribe">
+    <div class="container">
+        <div class="row d-flex justify-content-center h-100 align-items-center">
+            <div class="col-6">
+                <h2>Подпишитесь на обновления</h2>
+                <p>И будьте в курсе последних новостей и событий</p>
+            </div>
+            <div class="col-6">
+                <div class="input-group">
+                    <input type="text" id="validationTooltipUsername" placeholder="Ваш e-mail"
+                           aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div class="input-group-append">
+                        <button class="btn-blue btn-small"><i class="material-icons">send</i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-gray py-5" id="faq">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-6 faq">
+                <h2 class="mb-4">Вопрос/ответ</h2>
+                <a href="#" role="button" data-toggle="collapse" data-target="#first" aria-expanded="true">Сколько
+                    этапов реконструкции будет?</a>
+                <br>
+                <div class="collapse show" id="first">
+                    <p>Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей
+                        деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении
+                        поставленных задач. С другой стороны реализация намеченных плановых заданий требуют определения
+                        и уточнения существенных финансовых и административных условий. Таким образом консультация с
+                        широким активом позволяет выполнять важные задания по разработке новых предложений.
+                        Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности</p>
+                </div>
+                <a href="#" role="button" data-toggle="collapse" data-target="#second">Сколько реконструкций будет?</a>
+                <br>
+                <div class="collapse" id="second">
+                    <p>Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей
+                        деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении
+                        поставленных задач. С другой стороны реализация намеченных плановых заданий требуют определения
+                        и уточнения существенных финансовых и административных условий. Таким образом консультация с
+                        широким активом позволяет выполнять важные задания по разработке новых предложений.
+                        Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности</p>
+                </div>
+                <a href="#" role="button" data-toggle="collapse" data-target="#third">Сколько этапов будет?</a>
+                <br>
+                <div class="collapse" id="third">
+                    <p>Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей
+                        деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении
+                        поставленных задач. С другой стороны реализация намеченных плановых заданий требуют определения
+                        и уточнения существенных финансовых и административных условий. Таким образом консультация с
+                        широким активом позволяет выполнять важные задания по разработке новых предложений.
+                        Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности</p>
+                </div>
+                <a href="#" role="button" data-toggle="collapse" data-target="#fourth">Реконструкция будет?</a>
+
+                <div class="collapse" id="fourth">
+                    <p>Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей
+                        деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении
+                        поставленных задач. С другой стороны реализация намеченных плановых заданий требуют определения
+                        и уточнения существенных финансовых и административных условий. Таким образом консультация с
+                        широким активом позволяет выполнять важные задания по разработке новых предложений.
+                        Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности</p>
+                </div>
+            </div>
+            <div class="col-5 ml-auto">
+                facebookwidget
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-6 mx-auto">
+                <div class="callback-form">
+                    <h2 class="text-center">Задать вопрос</h2>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <label for="validationCustom03">Имя</label>
+                                <input type="text" class="w-100" id="validationCustom03" placeholder="" required>
+                                <div class="invalid-feedback">
+                                    Обязательно запоните поле!
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label for="validationCustom04">Email</label>
+                                <input type="email" class="w-100" id="validationCustom04" placeholder="" required>
+                                <div class="invalid-feedback">
+                                    Введите корректный e-mail адрес!
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label for="validationCustom05">Вопрос</label>
+                                <textarea class="w-100" name="message" id="validationCustom05" cols="30" rows="10"
+                                          required placeholder="Ваш вопрос"></textarea>
+                                <div class="invalid-feedback">
+                                    Задайте интересующий вас вопрос!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn-blue font-weight-normal">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-2">
+                <img src="./assets/sminex.png" alt="">
+            </div>
+            <div class="col-4">
+                <p class="address"><i class="material-icons">place</i> Москва, Орлово-Давыдовский переулок, 2А </p>
+            </div>
+            <div class="col-1">
+                <a href="#"><i class="fab fa-facebook  fa-lg"></i></a>
+            </div>
+            <div class="col-auto ml-auto">
+                <a href="#" class="documents"><i class="material-icons">library_books</i> Документы</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/bootstrap-validating.js"></script>
+<script>
+    $('.scroll').on('click', function () {
+        $('html, body').animate(
+            {scrollTop: $('#' + $(this).attr('ref')).offset().top}, 500);
+    });
+</script>
+</body>
+</html>

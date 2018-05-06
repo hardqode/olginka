@@ -1,0 +1,19 @@
+.competetors-container{
+  display: flex;
+  justify-content: flex-end;
+
+  .competetor{
+    z-index: 2;
+    text-align: center;
+    position: relative;
+    width: 136px;
+    margin-right: 1rem;
+    img{
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    p{
+      margin-bottom: 0;
+    }
+  }
+}

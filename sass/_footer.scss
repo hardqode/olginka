@@ -1,0 +1,27 @@
+footer {
+  background: #dee3ef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .address {
+    font-size: 15px;
+    color: rgb(26, 26, 24);
+    line-height: 1.2;
+    margin-bottom: 0;
+    .material-icons {
+      font-size: 15px;
+      color: rgb(18, 90, 255);
+      top: 0;
+    }
+  }
+  a{
+    color: #3b5998;
+  }
+  .documents {
+    font-size: 15px;
+    color: rgb(18, 90, 255);
+    line-height: 1.2;
+    i{
+      font-size: 18px;
+    }
+  }
+}
