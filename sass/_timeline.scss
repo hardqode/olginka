@@ -1,4 +1,12 @@
 .row-timeline{
+  display: flex;
+  justify-content: space-between;
+  &.collapse{
+    display: none;
+  }
+  &.show{
+    display: flex;
+  }
   .timeline{
     position: relative;
     &:before{

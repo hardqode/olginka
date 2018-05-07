@@ -1,3 +1,3 @@
 # olginka
-* sass --watch scss/build.scss:css/style.css
+* sass --watch sass/build.scss:css/style.css
 * live-server
